@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+}
+.weatherDiv {
+    display: grid;
+    width: 400px;
+    grid-template-rows: repeat(6, 30px);
+    grid-template-columns: 150px 90px 50px;
+    border: 1px solid black;
+}
+#temp_label {
+    grid-column: 1;
+    grid-row: 1;
+}
+#temp_value {
+    grid-column: 2;
+    grid-row: 1;
+}
+#condition_label {
+    grid-column: 1;
+    grid-row: 2;
+}
+#condition_value {
+    grid-column: 2;
+    grid-row: 2;
+}
+#condition_img {
+    grid-column: 3;
+    grid-row: 2;
+    width: 45px;
+    height: 45px;
+    align-self: self-start;
+}
+#wind_dir_label {
+    grid-column: 1;
+    grid-row: 3;
+}
+#wind_dir_value {
+    grid-column: 2;
+    grid-row: 3;
+}
+#wind_kph_label {
+    grid-column: 1;
+    grid-row: 4;
+}
+#wind_kph_value {
+    grid-column: 2;
+    grid-row: 4;
+}
+#humidity_label {
+    grid-column: 1;
+    grid-row: 5;
+}
+#humidity_value {
+    grid-column: 2;
+    grid-row: 5;
+}
